@@ -1,0 +1,39 @@
+/* stilos nuevos todo */
+
+.nosotros{
+    width: min(90%, 1000px);
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.nosotros__imagen{
+    max-height: 400px;
+    max-width: 400px;
+    margin: 70px auto;
+    
+}
+
+.nosotros__imagen img{
+    width: 100%;
+    height: 100%;
+}
+
+.nosotros__info{
+    display: flex;
+    flex-direction: column;
+}
+
+.nosotros__info h4{
+    margin-top: 20px;
+}
+
+.nosotros__info h1{
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.nosotros__info .nosotros__descripcion p{
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,52 @@
+.ProductoCarrito {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.ProductoCarrito__seleccionado {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex: 1;
+}
+
+.ProductoCarrito__tipoandnombre {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+    align-items: center;
+}
+
+
+.ProductoCarrito__seleccionado h5 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333 !important;
+}
+
+.ProductoCarrito__seleccionado p {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(122, 122, 122);
+}
+
+.btnGeneral {
+    color: #7aac41;
+    background-color: white;
+    border: solid 1px;
+    border-color: #7aac41;
+}
+
+.btnGeneral:hover {
+    color: #333;
+    background-color: white;
+    border: solid 1px;
+    border-color: #333;
+}
+
+.ProductoCarrito__tipoandnombre p {
+    font-weight: bold;
+    color: #7aac41;
+}

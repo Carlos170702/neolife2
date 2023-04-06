@@ -1,0 +1,163 @@
+.opc {
+    width: 100%;
+}
+
+.opc__traspariencia {
+    width: 100%;
+    height: 400px;
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/neolife-c7fcb.appspot.com/o/AdobeStock_19787158.jpeg?alt=media&token=2e829560-d921-426d-ad88-1f3ba434e01b);
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+
+}
+
+.opc__traspariencia::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(230, 230, 230);
+    opacity: .6;
+}
+
+.opc__banner {
+    position: relative;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+
+}
+
+.opc__banner h3,
+h2 {
+    color: #333(199, 199, 199);
+}
+
+.opciones {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.opcion {
+    width: min(430px 90%);
+    margin: 30px 10px;
+    height: 396px;
+}
+
+.cliente {
+    overflow: hidden;
+}
+
+.distribuidor {
+    overflow: hidden;
+}
+
+.distribuidor img,
+.cliente img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* .cliente img::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgb(238, 23, 23);
+    opacity: .7;
+}
+
+.distribuidor img::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, 50%);
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    opacity: .7;
+    z-index: 2;
+} */
+
+.opcion button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #7aac41;
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+/* 
+.opcion button:hover{
+    background-color: #7aac41;
+    color: white;
+} */
+
+.opcion button h2 {
+    font-size: 28px;
+    width: 200px;
+    text-align: center;
+    font-weight: 500;
+    position: absolute;
+    color: rgb(40, 40, 40);
+    z-index: 2;
+}
+
+@media (max-width: 1000px) {
+    .opciones {
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+
+    .opcion {
+        margin-bottom: 0px;
+        margin-top: 5px;
+    }
+
+    .opc__image {
+        height: 300px;
+    }
+
+    .opc__traspariencia {
+        height: 300px;
+
+    }
+}
+
+@media (max-width: 600px) {
+    .titulo1 {
+        padding-left: 200px;
+    }
+
+    .opc__banner h3,
+    h2 {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 450px) {
+    .titulo1 {
+        padding-left: 100px;
+    }
+
+    /* .opcion{ 
+        width: 90;
+        height: 90%;
+        margin: 0 20px;
+    } */
+}
