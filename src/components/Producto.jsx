@@ -1,9 +1,7 @@
 import { useDispatch } from "react-redux";
 import { addProductoModal } from "../store/slices/productos/productosSlice";
-import { useState } from "react";
 
 export const Producto = ({ producto, prev, next, count, all }) => {
-  const [isactive, setIsactive] = useState(true);
   const dispatch = useDispatch();
 
   // funcion agregar Producto Modal
@@ -11,41 +9,28 @@ export const Producto = ({ producto, prev, next, count, all }) => {
     dispatch(addProductoModal(producto));
   };
 
-  const handlePrev = (e) => {
+  const handlePrev = (event) => {
     prev();
+    event.stopPropagation();
   };
 
-  const handleNext = () => {
+  const handleNext = (event) => {
     next();
+    event.stopPropagation();
   };
 
   return (
     <div>
-      <div
-        onClick={() => {
-          if (isactive) {
-            productoModal(producto);
-          }
-          return null;
-        }}
-        className="producto"
-      >
+      <div onClick={() => productoModal(producto)} className="producto">
         <div className="carousel-buttons">
-          <button
-            onClick={handlePrev}
-            onMouseOver={() => setIsactive(false)}
-            onMouseOut={() => setIsactive(true)}
-          >
+          <button onClick={handlePrev}>
             <ion-icon
+              disabled
               style={{ color: "#7aac41", fontSize: "50px" }}
               name="chevron-back-outline"
             ></ion-icon>
           </button>
-          <button
-            onClick={handleNext}
-            onMouseOver={() => setIsactive(false)}
-            onMouseOut={() => setIsactive(true)}
-          >
+          <button onClick={handleNext}>
             <ion-icon
               name="chevron-forward-outline"
               style={{ color: "#7aac41", fontSize: "50px" }}

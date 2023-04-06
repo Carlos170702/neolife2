@@ -39,11 +39,11 @@
     justify-content: center;
     align-items: center;
     gap: 30px;
-    margin-bottom: 100px;
+    margin-bottom: 40px;
     padding: 0 15px;
     z-index: 1;
-    background: rgb(216,246,255);
-background: linear-gradient(0deg, rgba(216,246,255,0.8883928571428571) 0%, rgba(255,255,255,1) 100%);
+    background: rgb(216, 246, 255);
+    background: linear-gradient(0deg, rgba(216, 246, 255, 0.8883928571428571) 0%, rgba(255, 255, 255, 1) 100%);
 }
 
 .producto .producto__img {
@@ -246,6 +246,10 @@ background: linear-gradient(0deg, rgba(216,246,255,0.8883928571428571) 0%, rgba(
         padding-left: 0px;
         border-left: none;
     }
+
+    .producto{
+        background-color: red;
+    }
 }
 
 .carousel-buttons {
@@ -261,12 +265,6 @@ background: linear-gradient(0deg, rgba(216,246,255,0.8883928571428571) 0%, rgba(
     background-color: transparent;
     cursor: pointer;
 }
-
-/* 
-.icon {
-    font-size: 60px;
-    height: 60px;
-} */
 
 .arrow {
     width: 0;
