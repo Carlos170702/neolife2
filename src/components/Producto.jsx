@@ -1,3 +1,4 @@
+import { Suspense, lazy } from "react";
 import { useDispatch } from "react-redux";
 import { addProductoModal } from "../store/slices/productos/productosSlice";
 
@@ -19,6 +20,8 @@ export const Producto = ({ producto, prev, next, count, all }) => {
     event.stopPropagation();
   };
 
+  const ImageProducto = lazy(() => import("./ImageProducto"));
+
   return (
     <div>
       <div onClick={() => productoModal(producto)} className="producto">
@@ -37,12 +40,9 @@ export const Producto = ({ producto, prev, next, count, all }) => {
             ></ion-icon>
           </button>
         </div>
-        <img
-          className="producto__img"
-          src={producto?.img}
-          alt={producto?.nombre}
-          loading="lazy"
-        />
+        <Suspense fallback={<div className="loading">Cargando....</div>}>
+          <ImageProducto url={producto?.img} />
+        </Suspense>
         <div className="producto__informacion">
           <h6 className="producto__nombre">{producto?.nombre}</h6>
           <div className="producto__descripcion">

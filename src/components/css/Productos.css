@@ -46,8 +46,16 @@
     background: linear-gradient(0deg, rgba(216, 246, 255, 0.8883928571428571) 0%, rgba(255, 255, 255, 1) 100%);
 }
 
+.loading{
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
 .producto .producto__img {
-    max-height: 350px;
+    height: 350px;
     width: 100%;
     object-fit: contain;
     margin-top: 80px;
