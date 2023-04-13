@@ -15,12 +15,16 @@ export const productosViewClientes = [
   {
     nombre: "Acidophilus Plus",
     img: "https://res.cloudinary.com/carlosdaniel/image/upload/v1677379782/neolife/joxhmq6e8lg7ad3eku9a.webp",
-    descripcion:
-      "Probióticos específicos para el intestino. ° 5,000,000,000 de microorganismos “vivos” por cápsula. °Exclusivo Sistema de Protección Entérica “Gel-Gard” que lo protege contra los agresivos ácidos estomacales y asegura la mayor cantidad de bacterias vivas liberadas en el intestino..",
+    descripcion: [
+      "Regula la actividad intestinal, promoviendo la salud del colon.",
+      "Probióticos específicos para el intestino.",
+      "° 5,000,000,000 de microorganismos “vivos” por cápsula.",
+      "° Exclusivo Sistema de Protección Entérica “Gel-Gard” que lo protege contra los agresivos ácidos estomacales y asegura la mayor cantidad de bacterias vivas liberadas en el intestino.",
+    ],
     precio: 1122,
   },
   {
-    nombre: "All-C",
+    nombre: "ALL-C",
     img: "https://res.cloudinary.com/carlosdaniel/image/upload/v1677379792/neolife/v718glh0nmkbtkdsui6k.webp",
     descripcion:
       "° 4 naranjas en cada tableta. °Con rosa mosqueta y cereza acerola – las fuentes más ricas en vitamina C de la naturaleza. °Para obtener más apoyo para el sistema inmunológico, dientes y ojos saludables. °Una liberación sostenida a lo largo de 4 horas..",
@@ -43,8 +47,11 @@ export const productosViewClientes = [
   {
     nombre: "Betagard",
     img: "https://res.cloudinary.com/carlosdaniel/image/upload/v1677379819/neolife/kyotaaxbgi7cpikfzs9r.webp",
-    descripcion:
-      "°Basado en alimentos integrales. Antioxidantes, vitaminas y minerales para protegerse contra las toxinas ambientales. °Formulada específicamente para ayudar en la defensa de su cuerpo contra agentes nocivos en el aire, el agua y los alimentos..",
+    descripcion: [
+      "Desarrollado por el mundialmente famoso toxicólogo, investigador y Miembro Fundador Emérito del SAB. El Dr. Arthur Furst.",
+      "Basado en alimentos integrales. Antioxidantes, vitaminas y minerales para protegerse contra las toxinas ambientales.",
+      "° Formulada específicamente para ayudar en la defensa de su cuerpo contra agentes nocivos en el aire, el agua y los alimentos.",
+    ],
     precio: 714,
   },
   {
@@ -70,46 +77,54 @@ export const productosViewClientes = [
     nombre: "Bio-Tone NTS",
     img: "https://res.cloudinary.com/carlosdaniel/image/upload/v1677379772/neolife/zyvz3npulb0xhmor6t17.webp",
     descripcion: [
-      "°Retención muscular.",
-      "°Ayuda a la Movilización de la grasa.",
-      "°Respalda el desarrollo del tejido magro.",
-      "°Ayuda a la tonificación general del cuerpo.",
-      "°Diseñado para trabajar mientras duerme.",
+      "° Ayuda a la Retención muscular.",
+      "° Ayuda a la Movilización de la grasa.",
+      "° Respalda el desarrollo del tejido magro.",
+      "° Ayuda a la Tonificación general del cuerpo.",
+      "° Diseñado para trabajar mientras duerme.",
     ],
     precio: 811,
   },
   {
     nombre: "Carotenoid Complex",
     img: "https://res.cloudinary.com/carlosdaniel/image/upload/v1677379782/neolife/atzwubv2pk4nptccgdel.webp",
-    descripcion:
-      "°Mejora la función inmunológica general en un 37% en tan sólo 20 días. °Reduce la oxidación del colesterol y promueve la salud cardíaca. °Aumenta los niveles de antioxidantes en la sangre para la protección celular a largo plazo contra los daños de los radicales libres..",
+    descripcion: [
+      "Mejora la función inmunológica general en un 37% en tan sólo 20 días.",
+      "° Ayuda a reducir la oxidación del colesterol y promueve la salud cardíaca.",
+      "° Ayuda a aumentar los niveles de antioxidantes en la sangre para la protección celular a largo plazo contra los daños de los radicales libres.",
+    ],
     precio: 981,
   },
   {
     nombre: "CoQ10",
     img: "https://res.cloudinary.com/carlosdaniel/image/upload/v1677379792/neolife/ohimy2wwnpyibing5x71.webp",
     descripcion: [
-      "Nutrición poderosa para ",
+      "Nutrición poderosa para:",
       "Promover energía celular mitocondrial.",
       "Apoyo en la salud cardiovascular (5,000 mitocondrias).",
-      "Reducir   del   dolor   muscular   y   la   sensibilidad.",
+      "Ayuda a reducir   el   dolor   muscular   y   la   sensibilidad.",
       "Apoya una visión y una audición saludables.",
-      "Disminuir las posibilidades de migraña.",
+      "Ayuda a disminuir las posibilidades de migraña.",
     ],
     precio: 930,
   },
   {
     nombre: "Cruciferous Plus",
     img: "https://res.cloudinary.com/carlosdaniel/image/upload/v1677379813/neolife/qltwkwai6kf5mhe0mb7u.webp",
-    descripcion:
-      "°Ayuda a proteger las células y lo tejidos. °PROBADO Y COMPROBADO de acuerdo con los protocolos del Instituto Nacional del Cáncer para apoyar la función inmune..",
+    descripcion: [
+      "Ayuda a proteger y defiende las células y los tejidos.",
+      "Ayuda a neutralizar las toxinas.",
+      "Auxilia al estrógeno.",
+    ],
     precio: 445,
   },
   {
     nombre: "Flavonoid Complex",
     img: "https://res.cloudinary.com/carlosdaniel/image/upload/v1677379812/neolife/mrxsuwbroyvokgndgptz.webp",
-    descripcion:
-      "°Proporciona diversos fitonutrientes provenientes de frutas y verduras. °Actúa sobre los enlaces flavonoides para reducir el riesgo de cáncer, enfermedad cardíaca y otras enfermedades degenerativas relacionadas con la edad..",
+    descripcion: [
+      "° Proporciona diversos fitonutrientes provenientes de frutas y verduras.",
+      "° Potente protección antioxidante que ayuda a combatir a los radicales.",
+    ],
     precio: 623,
   },
   {
@@ -177,6 +192,7 @@ export const productosViewClientes = [
     sabores: [
       "NeoLifeShake Chocolate",
       "NeoLifeShake Frutos Rojos con Crema",
+      "NeoLifeShake Mix",
       "NeoLifeShake Vainilla cremosa",
     ],
   },
@@ -312,7 +328,7 @@ export const productosViewClientes = [
   },
   {
     nombre: "Shampoo Revitalizante Enriquecido",
-    img: "https://res.cloudinary.com/carlosdaniel/image/upload/v1678671846/neolife/ndsrzbrrythr0uxjlyta.jpg",
+    img: "https://res.cloudinary.com/carlosdaniel/image/upload/v1677379809/neolife/pqnqcmhudxk2dwcvv8je.webp",
     descripcion:
       "°Enjuaga las impurezas y añade luminosidad con el lujoso champú “Rich Revitalizing Shampoo” de Nutriance, de calidad de salón de belleza. Con Vitamina B3 y ProVitamina B5 (Pantenol), más una combinación selecta de ingredientes botánicos seleccionados para limpiar y nutrir efectivamente, además de agregar brillo, cuerpo y manejabilidad. Su cabello y cuero cabelludo se sentirán limpios y revitalizados cada vez que los mimes con esta fórmula limpiadora suave. Limpia suavemente, elimina la suciedad y los residuos de los productos de belleza. Aporta luminosidad natural, movimiento y brillo a tu cabello. Disfruta de un cabello suave, sedoso y manejable.",
     precio: 303,
@@ -323,8 +339,12 @@ export const productosViewDistribuidores = [
   {
     nombre: "Acidophilus Plus",
     img: "https://res.cloudinary.com/carlosdaniel/image/upload/v1677379782/neolife/joxhmq6e8lg7ad3eku9a.webp",
-    descripcion:
-      "Probióticos específicos para el intestino. ° 5,000,000,000 de microorganismos “vivos” por cápsula. °Exclusivo Sistema de Protección Entérica “Gel-Gard” que lo protege contra los agresivos ácidos estomacales y asegura la mayor cantidad de bacterias vivas liberadas en el intestino..",
+    descripcion: [
+      "Regula la actividad intestinal, promoviendo la salud del colon.",
+      "Probióticos específicos para el intestino.",
+      "° 5,000,000,000 de microorganismos “vivos” por cápsula.",
+      "° Exclusivo Sistema de Protección Entérica “Gel-Gard” que lo protege contra los agresivos ácidos estomacales y asegura la mayor cantidad de bacterias vivas liberadas en el intestino.",
+    ],
     precio: 840,
     puntos: 32,
     caja: {
@@ -333,14 +353,14 @@ export const productosViewDistribuidores = [
     },
   },
   {
-    nombre: "AlL C",
+    nombre: "ALL C",
     img: "https://res.cloudinary.com/carlosdaniel/image/upload/v1677379792/neolife/v718glh0nmkbtkdsui6k.webp",
     descripcion:
       "° 4 naranjas en cada tableta. °Con rosa mosqueta y cereza acerola – las fuentes más ricas en vitamina C de la naturaleza. °Para obtener más apoyo para el sistema inmunológico, dientes y ojos saludables. °Una liberación sostenida a lo largo de 4 horas..",
     precio: 293,
     puntos: 10,
     caja: {
-      precio: 1664,
+      precio: 1663,
       puntos: 60,
     },
   },
@@ -362,7 +382,7 @@ export const productosViewDistribuidores = [
     descripcion:
       "°Mezcla especial de tés herbales. °Vitamina C para una contribución antioxidante añadida. °Endulzado de manera natural para un “límite glicémico” propicio tanto para obtener energía rápida como continua..",
     precio: 515,
-    puntos: 19,
+    puntos: 9,
     caja: {
       precio: 2930,
       puntos: 114,
@@ -371,8 +391,11 @@ export const productosViewDistribuidores = [
   {
     nombre: "Betagard",
     img: "https://res.cloudinary.com/carlosdaniel/image/upload/v1677379819/neolife/kyotaaxbgi7cpikfzs9r.webp",
-    descripcion:
-      "°Basado en alimentos integrales. Antioxidantes, vitaminas y minerales para protegerse contra las toxinas ambientales. °Formulada específicamente para ayudar en la defensa de su cuerpo contra agentes nocivos en el aire, el agua y los alimentos..",
+    descripcion: [
+      "Desarrollado por el mundialmente famoso toxicólogo, investigador y Miembro Fundador Emérito del SAB. El Dr. Arthur Furst.",
+      "Basado en alimentos integrales. Antioxidantes, vitaminas y minerales para protegerse contra las toxinas ambientales.",
+      "° Formulada específicamente para ayudar en la defensa de su cuerpo contra agentes nocivos en el aire, el agua y los alimentos.",
+    ],
     precio: 537,
     puntos: 21,
     caja: {
@@ -406,18 +429,17 @@ export const productosViewDistribuidores = [
       precio: 4702,
       puntos: 216,
     },
-    precio: 829,
-    puntos: 36,
+    precio: 1103,
   },
   {
     nombre: "Bio-Tone NTS",
     img: "https://res.cloudinary.com/carlosdaniel/image/upload/v1677379772/neolife/zyvz3npulb0xhmor6t17.webp",
     descripcion: [
-      "°Retención muscular.",
-      "°Ayuda a la Movilización de la grasa.",
-      "°Respalda el desarrollo del tejido magro.",
-      "°Ayuda a la tonificación general del cuerpo.",
-      "°Diseñado para trabajar mientras duerme.",
+      "° Ayuda a la Retención muscular.",
+      "° Ayuda a la Movilización de la grasa.",
+      "° Respalda el desarrollo del tejido magro.",
+      "° Ayuda a la Tonificación general del cuerpo.",
+      "° Diseñado para trabajar mientras duerme.",
     ],
     precio: 608,
     puntos: 27,
@@ -429,8 +451,11 @@ export const productosViewDistribuidores = [
   {
     nombre: "Carotenoid Complex",
     img: "https://res.cloudinary.com/carlosdaniel/image/upload/v1677379782/neolife/atzwubv2pk4nptccgdel.webp",
-    descripcion:
-      "°Mejora la función inmunológica general en un 37% en tan sólo 20 días. °Reduce la oxidación del colesterol y promueve la salud cardíaca. °Aumenta los niveles de antioxidantes en la sangre para la protección celular a largo plazo contra los daños de los radicales libres..",
+    descripcion: [
+      "Mejora la función inmunológica general en un 37% en tan sólo 20 días.",
+      "° Ayuda a reducir la oxidación del colesterol y promueve la salud cardíaca.",
+      "° Ayuda a aumentar los niveles de antioxidantes en la sangre para la protección celular a largo plazo contra los daños de los radicales libres.",
+    ],
     precio: 737,
     puntos: 32,
     caja: {
@@ -445,11 +470,11 @@ export const productosViewDistribuidores = [
       "Nutrición poderosa para:",
       "Promover energía celular mitocondrial.",
       "Apoyo en la salud cardiovascular (5,000 mitocondrias).",
-      "Reducir   del   dolor   muscular   y   la   sensibilidad.",
+      "Ayuda a reducir   el   dolor   muscular   y   la   sensibilidad.",
       "Apoya una visión y una audición saludables.",
-      "Disminuir las posibilidades de migraña.",
+      "Ayuda a disminuir las posibilidades de migraña.",
     ],
-    precio: 698,
+    precio: 930,
     puntos: 34,
     caja: {
       precio: 3958,
@@ -459,8 +484,11 @@ export const productosViewDistribuidores = [
   {
     nombre: "Cruciferous Plus",
     img: "https://res.cloudinary.com/carlosdaniel/image/upload/v1677379813/neolife/qltwkwai6kf5mhe0mb7u.webp",
-    descripcion:
-      "°Ayuda a proteger las células y los tejidos. °PROBADO Y COMPROBADO de acuerdo con los protocolos del Instituto Nacional del Cáncer para apoyar la función inmune..",
+    descripcion: [
+      "Ayuda a proteger y defiende las células y los tejidos.",
+      "Ayuda a neutralizar las toxinas.",
+      "Auxilia al estrógeno.",
+    ],
     precio: 336,
     puntos: 16,
     caja: {
@@ -469,10 +497,12 @@ export const productosViewDistribuidores = [
     },
   },
   {
-    nombre: "Flavond Complex",
+    nombre: "Flavonoid Complex",
     img: "https://res.cloudinary.com/carlosdaniel/image/upload/v1677379812/neolife/mrxsuwbroyvokgndgptz.webp",
-    descripcion:
-      "°Proporciona diversos fitonutrientes provenientes de frutas y verduras. °Actúa sobre los enlaces flavonoides para reducir el riesgo de cáncer, enfermedad cardíaca y otras enfermedades degenerativas relacionadas con la edad..",
+    descripcion: [
+      "° Proporciona diversos fitonutrientes provenientes de frutas y verduras.",
+      "° Potente protección antioxidante que ayuda a combatir a los radicales.",
+    ],
     precio: 469,
     puntos: 19,
     caja: {
@@ -488,7 +518,7 @@ export const productosViewDistribuidores = [
     precio: 627,
     puntos: 24,
     caja: {
-      precio: 3553,
+      precio: 4553,
       puntos: 144,
     },
   },
@@ -793,7 +823,7 @@ export const productosViewDistribuidores = [
     descripcion:
       "°Enriching Conditioner te devuelve el cabello vibrante, tocable y manejable que amas aportando hidratación donde más se necesita. La ProVitamina B5 (Pantenol), el Extracto de Almendras Dulces y los acondicionadores hidratantes restauran el cuerpo y brillo saludables. Retiene la hidratación para un pelo vibrante y suave. Alisa el cabello sin apelmazarlo. Fortalece el cabello con ingredientes naturales..",
     precio: 220,
-    puntos: 9,
+    puntos: 8,
     caja: {
       precio: 1248,
       puntos: 48,
@@ -801,7 +831,7 @@ export const productosViewDistribuidores = [
   },
   {
     nombre: "Shampoo Revitalizante Enriquecido",
-    img: "https://res.cloudinary.com/carlosdaniel/image/upload/v1678671846/neolife/ndsrzbrrythr0uxjlyta.jpg",
+    img: "https://res.cloudinary.com/carlosdaniel/image/upload/v1677379809/neolife/pqnqcmhudxk2dwcvv8je.webp",
     descripcion:
       "°Enjuaga las impurezas y añade luminosidad con el lujoso champú “Rich Revitalizing Shampoo” de Nutriance, de calidad de salón de belleza. Con Vitamina B3 y ProVitamina B5 (Pantenol), más una combinación selecta de ingredientes botánicos seleccionados para limpiar y nutrir efectivamente, además de agregar brillo, cuerpo y manejabilidad. Su cabello y cuero cabelludo se sentirán limpios y revitalizados cada vez que los mimes con esta fórmula limpiadora suave. Limpia suavemente, elimina la suciedad y los residuos de los productos de belleza. Aporta luminosidad natural, movimiento y brillo a tu cabello. Disfruta de un cabello suave, sedoso y manejable.",
     precio: 220,
@@ -812,6 +842,7 @@ export const productosViewDistribuidores = [
     },
   },
 ];
+
 
 export const Productos = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -902,9 +933,9 @@ export const Productos = () => {
   };
 
   const TipoEnvio = () => {
-    if (envio) return "Tu envió tiene un costo de $100";
-    if ((puntos >= 250) & !envio) return "¡ Tienes envió gratis !";
-    return "Tu envió tiene un costo de $50";
+    if (envio) return "Tu envío tiene un costo de $100";
+    if ((puntos >= 250) & !envio) return "¡ Tienes envío gratis !";
+    return "Tu envío tiene un costo de $50";
   };
 
   // retorna los productos a pedir por whatsapp
@@ -923,7 +954,22 @@ export const Productos = () => {
 
   // cambiar tipo de Pago
   const changeTipoPago = (e) => {
-    setTipoDePago(e.target.value);
+    console.log(e.target.value);
+    if (e.target.value === "Telecomm") {
+      setTipoDePago("Telecomm");
+      return;
+    }
+
+    if (e.target.value === "Transferencia Bancaria/ Deposito Bancario") {
+      setTipoDePago("Transferencia Bancaria/ Depósito Bancario.");
+      return;
+    }
+
+    if (e.target.value === "Tarjeta de debito/Credito") {
+      setTipoDePago("Tarjeta de débito/crédito.");
+      return;
+    }
+
     setViewAcountBancario(false);
 
     if (e.target.value === "Transferencia Bancaria/ Deposito Bancario") {

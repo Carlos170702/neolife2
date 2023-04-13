@@ -46,14 +46,19 @@ export const Producto = ({ producto, prev, next, count, all }) => {
         <div className="producto__informacion">
           <h6 className="producto__nombre">{producto?.nombre}</h6>
           <div className="producto__descripcion">
-            {producto?.nombre === "BG" ||
+          {producto?.nombre === "Acidophilus Plus" ||
+            producto?.nombre === "Aloe Vera Gel" ||
+            producto?.nombre === "BG" ||
             producto?.nombre === "Bio-Tone NTS" ||
+            producto?.nombre === "Betagard" ||
             producto?.nombre === "CoQ10" ||
+            producto?.nombre === "Carotenoid Complex" ||
+            producto?.nombre === "Cruciferous Plus" ||
+            producto?.nombre === "Flavonoid Complex" ||
             producto?.nombre === "Pro Vitality" ||
             producto?.nombre === "Tre en en" ||
             producto?.nombre === "Vitamin E plus" ||
-            producto?.nombre === "Vita-Squares" ||
-            producto?.nombre === "Aloe Vera Gel"
+            producto?.nombre === "Vita-Squares"
               ? producto?.descripcion.map((item, index) => (
                   <p key={index}>{item}</p>
                 ))
